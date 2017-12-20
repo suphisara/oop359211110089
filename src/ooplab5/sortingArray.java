@@ -25,7 +25,13 @@ public class sortingArray {
 
     private static void sortingDataDesending(int[] number) {
         System.out.println("Desending Order:");
-        Integer[] num ={1,8,6,3};
+        Integer[] num =new Integer[number.length];
+        int i = 0;
+        for (int val : number){
+            num[i++] = val;
+        }
+
+
         Arrays.sort(num, Collections.reverseOrder());
         showData(number,number.length);
     }//sortingDataDesending
