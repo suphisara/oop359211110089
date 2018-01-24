@@ -15,14 +15,14 @@ public class Student {
     private  String Gender;
     //Constructor
     //Default Constructor
-    private Student () {}
+    Student() {}
     //Constructor by own
     public Student (String id ,String n ,String a , String g) {
-       //assign data to properties
-       this.id = id;
-       this.name = name;
-       this.Adderss = Adderss;
-       this.Gender = Gender;
+        //assign data to properties
+        this.id = id;
+        this.name = name;
+        this.Adderss = Adderss;
+        this.Gender = Gender;
     }//Student
     //getter and setter methods
 
