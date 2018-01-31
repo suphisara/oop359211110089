@@ -1,16 +1,15 @@
 package ooplab8;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Person {
     private String name;
     private  String gender;
-    private Date dateOFBirth;
+    private String dateOFBirth;
     private int age;
     //constructor
 
-    public Person(String name, String gender, Date dateOFBirth, int age) {
+    public Person(String name, String gender, String dateOFBirth, int age) {
         this.name = name;
         this.gender = gender;
         this.dateOFBirth = dateOFBirth;
@@ -46,11 +45,11 @@ public class Person {
         this.gender = gender;
     }
 
-    public Date getDateOFBirth() {
+    public String getDateOFBirth() {
         return dateOFBirth;
     }
 
-    public void setDateOFBirth(Date dateOFBirth) {
+    public void setDateOFBirth(String dateOFBirth) {
         this.dateOFBirth = dateOFBirth;
     }
 
